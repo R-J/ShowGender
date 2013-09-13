@@ -1,0 +1,29 @@
+span.Gender_m>span.Author>a:last-child:after {content:' \2642'}
+span.Gender_f>span.Author>a:last-child:after {content:' \2640'}
+
+/* try one of them ;-)
+span.Gender_m>span.Author>a:last-child:after {content:' \2642';color:lightblue;}
+span.Gender_f>span.Author>a:last-child:after {content:' \2640';color:pink;}
+
+span.Gender_m>span.Author>a:last-child:after {content:' \1f37a'}
+span.Gender_f>span.Author>a:last-child:after {content:' \1f379'}
+
+span.Gender_m>span.Author>a:last-child:after {content:' \1f335'}
+span.Gender_f>span.Author>a:last-child:after {content:' \1f337'}
+
+span.Gender_m>span.Author>a:last-child:after {content:' \2654'}
+span.Gender_f>span.Author>a:last-child:after {content:' \2655'}
+
+span.Gender_m>span.Author>a:last-child:after {content:' \2660'}
+span.Gender_f>span.Author>a:last-child:after {content:' \2665'}
+
+span.Gender_m>span.Author>a:last-child:after {content:' \26BD'}
+span.Gender_f>span.Author>a:last-child:after {content:' \273F'}
+
+span.Gender_m>span.Author>a:last-child:after {content:' \1F479'}
+span.Gender_f>span.Author>a:last-child:after {content:' \1F478'}
+
+span.Gender_m>span.Author>a:last-child:after {content:' \1F468'}
+span.Gender_f>span.Author>a:last-child:after {content:' \1F471'}
+
+*/
