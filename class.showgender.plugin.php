@@ -7,7 +7,7 @@
 $PluginInfo['ShowGender'] = array(
    'Name' => 'Show Gender',
    'Description' => 'Adds gender symbols to username in discussion',
-   'Version' => '0.1',
+   'Version' => '0.2',
    'RequiredApplications' => array('Vanilla' => '>=2.0.18'),
    'MobileFriendly' => TRUE,
    'Author' => 'Robin'
