@@ -19,13 +19,8 @@ class ShowGenderPlugin extends Gdn_Plugin {
    }
 
    function DiscussionController_BeforeCommentMeta_Handler($Sender) {
-      $UserID = $Sender->EventArguments['Author']->UserID;
-      $Gender = Gdn::SQL()
-         ->Select('Gender')
-         ->From('User')
-         ->Where('UserID', $UserID)
-         ->Get()
-         ->FirstRow(DATASET_TYPE_ARRAY)['Gender'];
+      $User = $Sender->EventArguments['Author'];
+      $Gender = $User->Gender;
       echo "<span class=\"Gender_{$Gender}\" />";
    }
 }
